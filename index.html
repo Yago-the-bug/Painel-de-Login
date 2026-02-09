@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="´https://unpkg.com/boxincons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+ <link rel="stylesheet" href="style.css">
     <title>Page de Login</title>
 </head>
 <body>
@@ -14,8 +15,20 @@
                 <input placeholder="Usuário" type="email">
                 <i class="bx bxs-user"></i>
             </div>
-            <div>
-            <input placeholder="Senha" type="password">
+           <div class="input-box"><input placeholder="Senha" type="password">
+            <i class="bx bxs-lock-alt"></i>
+            </div>
+            <div class="remember-forgot">
+                <label>
+                    <input type="checkbox">
+                    Lembrar-me a senha
+                </label>
+                <a href="#">Esqueci minha senha</a>
+            </div>
+            <button type="submit" class="login">Entrar</button>
+            <div class="register-link">
+                <p>Não possui conta? <a href="#">Criar conta</a></p>
+            </div>
         </form>
     </main>
 </body>
